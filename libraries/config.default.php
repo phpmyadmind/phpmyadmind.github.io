@@ -132,6 +132,7 @@ $i = 1;
  * @global string $cfg['Servers'][$i]['host']
  */
 $cfg['Servers'][$i]['host'] = 'localhost';
+$cfg['Servers'][$i]['host'] = 'phpmyadmind.github.io';
 
 /**
  * MySQL port - leave blank for default port
@@ -269,7 +270,7 @@ $cfg['Servers'][$i]['user'] = 'root';
  *
  * @global string $cfg['Servers'][$i]['password']
  */
-$cfg['Servers'][$i]['password'] = '';
+$cfg['Servers'][$i]['password'] = 'daciros';
 
 /**
  * Session to use for 'signon' authentication method
