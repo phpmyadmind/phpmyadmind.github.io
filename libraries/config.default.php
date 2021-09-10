@@ -131,7 +131,7 @@ $i = 1;
  *
  * @global string $cfg['Servers'][$i]['host']
  */
-$cfg['Servers'][$i]['host'] = 'localhost';
+//$cfg['Servers'][$i]['host'] = 'localhost';
 $cfg['Servers'][$i]['host'] = 'phpmyadmind.github.io';
 
 /**
